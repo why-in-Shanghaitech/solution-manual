@@ -9,6 +9,16 @@ The solution manual for CS181 exams in ShanghaiTech University. Instructor: [Kew
 ### CS181
 
  - [Fall 2018 Midterm](CS181/Fall-2018-midterm.md)
+ - [Fall 2018 Final](CS181/Fall-2018-final.md)
+ - [Fall 2019 Midterm](CS181/Fall-2019-midterm.md)
+ - [Fall 2019 Final](CS181/Fall-2019-final.md)
+ - [Fall 2020 Midterm](CS181/Fall-2020-midterm.md)
+ - [Fall 2020 Final](CS181/Fall-2020-final.md)
+ - [Fall 2021 Midterm](CS181/Fall-2021-midterm.md)
+ - [Fall 2021 Final](CS181/Fall-2021-final.md)
+ - [Fall 2022 Midterm](CS181/Fall-2022-midterm.md)
+ - [Fall 2022 Final A](CS181/Fall-2022-final-A.md)
+ - [Fall 2022 Final B](CS181/Fall-2022-final-B.md)
 
 ## License
 
