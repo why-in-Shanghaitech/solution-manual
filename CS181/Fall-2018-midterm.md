@@ -50,7 +50,7 @@ D. A* is complete and optimal with consistent heuristics.
 ### Question 7
 
 A. That is true. An inference algorithm that derives only entailed sentences is called sound or truth-preserving. (p.242, Section 7.3, AIMA 3rd. ver.).  
-B. Yes. More specifically, $\neg S$ is valid. A sentence is satisfiable if it is true in, or satisfied by, some model. (p.250, Section 7.5, AIMA 3rd. ver.) A sentence is valid if it is true in all models. (p.249, Section 7.5, AIMA 3rd. ver.)
+B. Yes. More specifically, $\neg S$ is valid. A sentence is satisfiable if it is true in, or satisfied by, some model. (p.250, Section 7.5, AIMA 3rd. ver.) A sentence is valid if it is true in all models. (p.249, Section 7.5, AIMA 3rd. ver.)  
 C. Forward chaining is sound and complete. It is sound, because every inference is just an application of Generalized Modus Ponens, which is sound. It is complete for definite clause knowledge bases; that is, it answers every query whose answers are entailed by any knowledge base of definite clauses (p.331, Section 9.3.2, AIMA 3rd. ver.). Backward chaining (unlike forward chaining) suffers from problems with repeated states and incompleteness. (p.337, Section 9.4.1, AIMA 3rd. ver.) See example in textbook Figure 9.10 (p.343, Section 9.4.4, AIMA 3rd. ver.).  
 D. Yes. Horn clause has the form $P_1 \land P_2 \land \dots \land P_n \Rightarrow Q$ or alternatively $\neg P_1 \lor \neg P_2 \lor \dots \lor \neg P_n \lor Q$ (p.26, Slide 05, Fall 2022).
 
