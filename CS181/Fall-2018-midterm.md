@@ -112,14 +112,6 @@ Source: [Q7, (d), Midterm, Spring 2011, Berkeley Exam](https://inst.eecs.berkele
 
 ## 3 CSP
 
-### 3.1 
-
-Too easy
-
-### 3.2
-
-Too easy
-
 ### 3.3
 
 
