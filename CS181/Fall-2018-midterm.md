@@ -114,4 +114,57 @@ Source: [Q7, (d), Midterm, Spring 2011, Berkeley Exam](https://inst.eecs.berkele
 
 ### 3.3
 
+An arc $A \rightarrow B$ is inconsistent after enforcing constraint (2), there is only one possibility: $B$ has only one single value in its domain, and the domain of $A$ contains this value.
 
+From 3.2 we know that only $X_3$ and $X_5$ have one value $c_2$ in its domain. From 3.1, we know the possible arcs:
+$X_1 \rightarrow X_3$,
+$X_6 \rightarrow X_3$,
+$X_1 \rightarrow X_5$.
+
+And the domain of $X_1$ and $X_6$ contains $c_2$. So these 3 arcs are not consistent.
+
+### 3.4
+
+Starting from 3.3, let's delete from the tail:
+
+| Variable | Domain          |
+| -------- | --------------- |
+| $X_1$    | $c_1$           |
+| $X_2$    | $c_1, c_2, c_3$ |
+| $X_3$    | $c_2$           |
+| $X_4$    | $c_1, c_3$      |
+| $X_5$    | $c_2$           |
+| $X_6$    | $c_1, c_3$      |
+
+Then, consider $X_i \rightarrow X_1$, where $i=2,4,6$. We have
+
+| Variable | Domain     |
+| -------- | ---------- |
+| $X_1$    | $c_1$      |
+| $X_2$    | $c_2, c_3$ |
+| $X_3$    | $c_2$      |
+| $X_4$    | $c_3$      |
+| $X_5$    | $c_2$      |
+| $X_6$    | $c_3$      |
+
+Finally, consider $X_2 \rightarrow X_6$, the domain of $X_2$ only has $c_2$. 
+
+| Variable | Domain |
+| -------- | ------ |
+| $X_1$    | $c_1$  |
+| $X_2$    | $c_2$  |
+| $X_3$    | $c_2$  |
+| $X_4$    | $c_3$  |
+| $X_5$    | $c_2$  |
+| $X_6$    | $c_3$  |
+
+Check the constraints, we find that they are all satisfied.
+
+
+## 4 Logic
+
+The solution is illustrative enough.
+
+## 5 Winner, winner, chicken dinner
+
+The solution is illustrative enough.
