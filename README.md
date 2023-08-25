@@ -2,7 +2,7 @@
 
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
-The solution manual for CS181 exams in ShanghaiTech University. Instructor: [Kewei Tu](https://faculty.sist.shanghaitech.edu.cn/faculty/tukw/).
+The solution manual for CS181 and CS274A exams in ShanghaiTech University. Instructor: [Kewei Tu](https://faculty.sist.shanghaitech.edu.cn/faculty/tukw/).
 
 ## Menu
 
@@ -19,6 +19,11 @@ The solution manual for CS181 exams in ShanghaiTech University. Instructor: [Kew
  - [Fall 2022 Midterm](CS181/Fall-2022-midterm.md)
  - [Fall 2022 Final A](CS181/Fall-2022-final-A.md)
  - [Fall 2022 Final B](CS181/Fall-2022-final-B.md)
+
+### CS274A
+
+ - [Spring 2022 Final](CS274A/Spring-2022-final.md)
+
 
 ## License
 
