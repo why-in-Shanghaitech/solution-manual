@@ -4,6 +4,8 @@
 
 The solution manual for CS181 and CS274A exams in ShanghaiTech University. Instructor: [Kewei Tu](https://faculty.sist.shanghaitech.edu.cn/faculty/tukw/).
 
+We try to provide detailed explanations to previous exams, better help students prepare for their exams. Contributions are welcome.
+
 ## Menu
 
 ### CS181
