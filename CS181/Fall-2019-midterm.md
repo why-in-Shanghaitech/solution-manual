@@ -50,3 +50,32 @@ B. No information about the condition.
 C. Consider `A -> B <- C -> D`. Given `A`, `B` and `D` are dependent.  
 D. See (p.50, Slide 07, Fall 2022).
 
+### Question 7
+
+A. Path $B_1, B_0, B_3, B_5$ is active.  
+B. Path $B_1, B_0, B_2$, $B_1, B_4, B_2$ are blocked. All paths from $B_1$ to $B_2$ are blocked.  
+C. All paths from $B_0$ to $B_4$ are blocked.  
+D. $M_1, M_4$ are connected.  
+E. No. For example, $M_1 \perp M_2 | M_0, M_4$, but it is not true for BN.
+
+### Question 8
+
+A. The Markov blanket of a node is its neighbors. So here, it should be 3 nodes.  
+B. Each clique has at most 2 nodes. There are 12 edges, so we need to define 12 potential functions.  
+C. Yes, for example, $B, D, E$.  
+D. No. To represent any joint distribution, the graph should be fully connected. There are 8 nodes, so there are $8 \times 7 \div 2 = 28$ possible edges. However, there are only 12 edges in the graph, so we need another 16 edges to make it fully connected.
+
+### Question 9
+
+A. This makes nonsense. Gibbs sampling does not restrict sampling order.  
+B. The Markov blanket of $C$ is $A, B, E$.  
+C. VE does not restrict elimination order.  
+D. Same as the above.
+
+### Question 10
+
+A. This is tricky. FOL KB is a set of hard constraints while MLN models soft constraints. If you want to model hard constraints in MLN, you need to reverse the logic and set the potential to $-\infty$.  
+B. It is possible to generate more than 1 cliques.  
+C. Violating a formula just sacrifices the potential of this formula. It reduces the probability, but the probability will not always be zero.  
+D. In principle, a PRM can be converted into a MLN by writing a formula for each entry of each CPT and setting the weight to be the logarithm of the conditional probability. (p.49, Slide 10, Fall 2023)
+
