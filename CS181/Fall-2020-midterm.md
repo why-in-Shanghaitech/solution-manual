@@ -22,4 +22,11 @@ D. In tree search, A* is optimal if the heuristic is admissible. (p. 43-47, Slid
 
 ### Question 3
 
+This question assumes that we are running backtracking search with forward checking. Notice that this assumption is not necessarily true, so the question is not well-defined.
+
+A. We cannot determine the correctness of the statement. This is because we do not know the color assignments of the variables. If the assignment strategy is LCV, then the statement is correct.  
+B. After assigning R to A, we have B: {G, B}, C: {G, B}, D: {R, G, B}, E: {R, G, B}. Then we assign G to B, and we have C: {G, B}, D: {R, B}, E: {R, B}. Then we assign G to C, and we have D: {R, B}, E: {R, B}. Then we assign B to D, and we have E: {R}. Then we assign R to E. The assignment follows LCV.  
+C. After assigning R to A, we have B: {G, B}, C: {G, B}, D: {R, G, B}, E: {R, G, B}. Then we assign G to B, and we have C: {G, B}, D: {R, B}, E: {R, B}. Then we assign B to C, and we have D: {R, B}, E: {R}. However, if we assign G to C, E will have 2 options. Thus, the assignment does not follow LCV.  
+D. Similar to B, the assignment follows LCV. The key is to assign the same color to B and C.
+
 
