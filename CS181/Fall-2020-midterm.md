@@ -35,7 +35,7 @@ This question assumes that we are visiting the nodes from left to right.
 
 A formal method is to calculate the alpha-beta values for each node. Here, we provide an intuitive explanation.
 
-A. G will not be pruned. After visiting M, we know $A \leq B = 50$, $C \geq F = 49$. If $G = 51$, then $A = 50$; if $G = 49$, then $A = 49$. Thus, G will not be pruned.
+A. G will not be pruned. After visiting M, we know $A \leq B = 50$, $C \geq F = 49$. If $G = 51$, then $A = 50$; if $G = 49$, then $A = 49$. Thus, G will not be pruned.  
 B. K will be pruned. After visiting J, we've already known that $E \leq 1$, while $B \geq D = 50$. No matter what the value of K is, we know that $B = 50$. Thus, K will be pruned.  
-C. Since G will not be pruned, N will not be pruned.
+C. Since G will not be pruned, N will not be pruned.  
 D. O will be pruned. After visiting N, we know that $G \leq 0$, while $C \geq 49$. No matter what the value of O is, we know that $C = 49$. Thus, O will be pruned.
