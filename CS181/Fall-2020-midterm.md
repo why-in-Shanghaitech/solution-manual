@@ -29,4 +29,13 @@ B. After assigning R to A, we have B: {G, B}, C: {G, B}, D: {R, G, B}, E: {R, G,
 C. After assigning R to A, we have B: {G, B}, C: {G, B}, D: {R, G, B}, E: {R, G, B}. Then we assign G to B, and we have C: {G, B}, D: {R, B}, E: {R, B}. Then we assign B to C, and we have D: {R, B}, E: {R}. However, if we assign G to C, E will have 2 options. Thus, the assignment does not follow LCV.  
 D. Similar to B, the assignment follows LCV. The key is to assign the same color to B and C.
 
+### Question 4
 
+This question assumes that we are visiting the nodes from left to right.
+
+A formal method is to calculate the alpha-beta values for each node. Here, we provide an intuitive explanation.
+
+A. G will not be pruned. After visiting M, we know $A \leq B = 50$, $C \geq F = 49$. If $G = 51$, then $A = 50$; if $G = 49$, then $A = 49$. Thus, G will not be pruned.
+B. K will be pruned. After visiting J, we've already known that $E \leq 1$, while $B \geq D = 50$. No matter what the value of K is, we know that $B = 50$. Thus, K will be pruned.  
+C. Since G will not be pruned, N will not be pruned.
+D. O will be pruned. After visiting N, we know that $G \leq 0$, while $C \geq 49$. No matter what the value of O is, we know that $C = 49$. Thus, O will be pruned.
