@@ -39,3 +39,10 @@ A. G will not be pruned. After visiting M, we know $A \leq B = 50$, $C \geq F = 
 B. K will be pruned. After visiting J, we've already known that $E \leq 1$, while $B \geq D = 50$. No matter what the value of K is, we know that $B = 50$. Thus, K will be pruned.  
 C. Since G will not be pruned, N will not be pruned.  
 D. O will be pruned. After visiting N, we know that $G \leq 0$, while $C \geq 49$. No matter what the value of O is, we know that $C = 49$. Thus, O will be pruned.
+
+### Question 5
+
+A. $\neg S$ also can be satisfiable.  
+B. $\neg S$ is valid.  
+C. Let $A=X_1 \lor X_2$, B=$\neg X_1 \lor X_3$, C=$X_2 \lor X_3$. Applying resolution to $A, B$ produces $C$. Consider $X_1 = False, X_2 = False, X_3 = True$, then $A = False, B = True, C = True$. $A \land B \not \equiv C$.  
+D. From $A$ and $B$ we can infer $C$. Thus, $A \land B \Rightarrow C$. See p. 22, Slide 5, Fall 2023 for resolutions.
