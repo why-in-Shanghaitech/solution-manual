@@ -46,3 +46,9 @@ A. $\neg S$ also can be satisfiable.
 B. $\neg S$ is valid.  
 C. Let $A=X_1 \lor X_2$, B=$\neg X_1 \lor X_3$, C=$X_2 \lor X_3$. Applying resolution to $A, B$ produces $C$. Consider $X_1 = False, X_2 = False, X_3 = True$, then $A = False, B = True, C = True$. $A \land B \not \equiv C$.  
 D. From $A$ and $B$ we can infer $C$. Thus, $A \land B \Rightarrow C$. See p. 22, Slide 5, Fall 2023 for resolutions.
+
+### Question 6
+
+A. This is ambiguous. Based on the syntax on p. 258, Figure 8.3, AIMA 4th edition, the statement is correct. The sentence is syntactically correct, but semantically incorrect. See p. 20, Slide 6, Fall 2023.  
+B. No. This sentence means "Every thing is a cat and it is cute."  
+C. Yes. This is the rule of quantifier duality. (p.19, Slide 6, Fall 2023)  
