@@ -51,4 +51,11 @@ D. From $A$ and $B$ we can infer $C$. Thus, $A \land B \Rightarrow C$. See p. 22
 
 A. This is ambiguous. Based on the syntax on p. 258, Figure 8.3, AIMA 4th edition, the statement is correct. The sentence is syntactically correct, but semantically incorrect. See p. 20, Slide 6, Fall 2023.  
 B. No. This sentence means "Every thing is a cat and it is cute."  
-C. Yes. This is the rule of quantifier duality. (p.19, Slide 6, Fall 2023)  
+C. Yes. This is the rule of quantifier duality. (p.19, Slide 6, Fall 2023)
+
+### Question 7
+
+A. It is possible that the MGU does not exist. (p. 40, Slide 6, Fall 2023)  
+B. This is ambiguous. Forward chaining is complete for definite clause knowledge bases. That is, it answers every query whose answers are entailed by any knowledge base of definite clauses. (p. 288, Section 7.8, AIMA 4th edition) However, this is not necessarily true for indefinite clause knowledge bases.  
+C. Backward chaining can avoid repeated subgoals by caching previous results. (p. 57, Slide 6, Fall 2023)  
+D. This is true. The former says that there exists a person that everyone loves him/her. The latter says that everyone loves a person. The former one is stronger than the latter one and can entail the latter one.
