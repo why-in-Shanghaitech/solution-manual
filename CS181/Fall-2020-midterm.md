@@ -59,3 +59,24 @@ A. It is possible that the MGU does not exist. (p. 40, Slide 6, Fall 2023)
 B. This is ambiguous. Forward chaining is complete for definite clause knowledge bases. That is, it answers every query whose answers are entailed by any knowledge base of definite clauses. (p. 288, Section 7.8, AIMA 4th edition) However, this is not necessarily true for indefinite clause knowledge bases.  
 C. Backward chaining can avoid repeated subgoals by caching previous results. (p. 57, Slide 6, Fall 2023)  
 D. This is true. The former says that there exists a person that everyone loves him/her. The latter says that everyone loves a person. The former one is stronger than the latter one and can entail the latter one.
+
+### Question 8
+
+1. Joining over $C$. This will join all the factors with $C$, which are all the factors in this case. The result factor is $P(B, C, D|A)$.
+2. Summing out $C$. This will sum out $C$ from the result factor. The result factor is $P(B, D|A)$.
+
+### Question 9
+
+A. No. Bayes Net is a directed acyclic graph. (p. 35, Slide 7, Fall 2023)  
+B. Yes. Every variable is conditionally independent of its non-descendants given its parents. (p. 48, Slide 7, Fall 2023)  
+C. Yes. Simple chain rule. (p. 31, Slide 7, Fall 2023)  
+D. No. See p. 54, Slide 7, Fall 2023 as an example.
+
+### Question 10
+
+See p. 57, Slide 7, Fall 2023 for the active/inactive paths.
+
+A. No. G-E-H is an active path.  
+B. Yes. All paths are inactive.  
+C. No. D-B-F-C is an active path.  
+D. Yes. All paths are inactive.
