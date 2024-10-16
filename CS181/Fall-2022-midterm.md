@@ -17,3 +17,17 @@ E. No. It is A* search.
 ### Question 2
 
 Definition, see p. 32, Slide 3, Fall 2023.
+
+### Question 3
+
+A. Yes. Rational is one of the assumptions in minimax. (p. 39, Slide 5, Fall 2023)  
+B. Yes. See p. 37, Slide 5, Fall 2023.  
+C. No. It is similar to DFS and the time complexity is $O(b^m)$.  
+D. Yes. See p. 22, Slide 5, Fall 2023.
+
+### Question 4
+
+A. Yes. Since $X_1 \leq a \leq X_3$.  
+B. No. Consider $a = 1, b = c = d = 10$. It is possible that $X_1 = 1, X_2 = 10$.  
+C. No. Consider $a = 1, b = c = d = 10$. It is possible that $X_2 = 1, X_3 = 10$.  
+D. Yes. Consider $b = 10, a = c = d = 1$. It is possible that $X_2 = 10, X_3 = 1$.
