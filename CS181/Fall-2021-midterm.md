@@ -20,4 +20,13 @@ B. Yes. It is guaranteed that $0 \leq max(h_1(n), h_2(n)) \leq h^*(n)$.
 C. Yes. It is guaranteed that $0 \leq min(h_1(n), h_2(n)) \leq h^*(n)$.  
 D. Yes. It is guaranteed that $0 \leq \alpha h_1(n) + (1-\alpha) h_2(n) \leq h^*(n)$.
 
+### Question 3
 
+A. Yes. See p. 153, 5.2.4, AIMA 4th edition.  
+B. Yes. See p. 174, Chapter 5 Summary, AIMA 4th edition.  
+C. Yes. See p. 150, 5.2.1, AIMA 4th edition.  
+D. Yes. See p. 48, Slide 4, Fall 2023.
+
+### Question 4
+
+Perhaps the simplest check is as follows: pruning of children of a minimizer node m is possible (for some assignment to the terminal nodes), when both of the following conditions are met: (i) the value of another child of m has already been determined, (ii) somewhere on the path from m to the root node (include), there is a maximizer node M for which an alternative option has already been explored. The pruning will then happen if any such alternative option for the maximizer had a higher value than the value of the “another child” of m for which the value was already determined.
