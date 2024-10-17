@@ -30,3 +30,17 @@ D. Yes. See p. 48, Slide 4, Fall 2023.
 ### Question 4
 
 Perhaps the simplest check is as follows: pruning of children of a minimizer node m is possible (for some assignment to the terminal nodes), when both of the following conditions are met: (i) the value of another child of m has already been determined, (ii) somewhere on the path from m to the root node (include), there is a maximizer node M for which an alternative option has already been explored. The pruning will then happen if any such alternative option for the maximizer had a higher value than the value of the “another child” of m for which the value was already determined.
+
+### Question 5
+
+A. No. $\neg S$ also can be satisfiable.  
+B. Yes. See p. 48, Slide 5, Fall 2023.  
+C. No. Horn clause must have form of $P_1 \land P_2 \land \cdots \land P_n \Rightarrow Q$, or $\neg P_1 \lor \neg P_2 \lor \cdots \lor \neg P_n \lor Q$. (p. 26, Slide 5, Fall 2023)  
+D. Yes. It can be thought of $True \Rightarrow A$ is valid.
+
+### Question 6
+
+A. Yes. Use Modus Ponens.  
+B. Yes. $LHS \equiv \neg A \lor B \lor \neg B \lor C \equiv True \equiv RHS$.  
+C. Yes. $LHS \equiv (\neg A \lor C) \land (\neg B \lor C) \equiv (\neg A \land \neg B) \lor (\neg A \land C) \lor (C \land \neg B) \lor (C \land C) \equiv RHS$  
+D. Yes. $LHS \equiv (A \lor B) \land (B \lor \neg B) \land (A \lor \neg A) \land (\neg B \lor \neg A) \equiv RHS$
