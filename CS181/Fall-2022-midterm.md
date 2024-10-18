@@ -31,3 +31,17 @@ A. Yes. Since $X_1 \leq a \leq X_3$.
 B. No. Consider $a = 1, b = c = d = 10$. It is possible that $X_1 = 1, X_2 = 10$.  
 C. No. Consider $a = 1, b = c = d = 10$. It is possible that $X_2 = 1, X_3 = 10$.  
 D. Yes. Consider $b = 10, a = c = d = 1$. It is possible that $X_2 = 10, X_3 = 1$.
+
+### Question 5
+
+A. No. $\neg S$ also can be satisfiable.  
+B. No. Backward chaining is goal-driven. (p. 48, Slide 5, Fall 2023)  
+C. Yes. Distributivity of $\land$ over $\lor$. (p. 14, Slide 5, Fall 2023)  
+D. Yes. See p. 19, Slide 5, Fall 2023.
+
+### Question 6
+
+A. Yes. Since $B \lor (A \land B) \equiv B$.  
+B. Yes. $LHS \equiv (\neg A \lor B) \lor (\neg B \lor A) \equiv True \equiv RHS$.  
+C. No. Consider $A = B = False$, then $LHS = True$ and $RHS = False$.  
+D. No. Consider $A = False, B = True$, then $LHS = True$ and $RHS = False$.
