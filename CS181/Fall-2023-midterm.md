@@ -30,3 +30,10 @@ D. No. See p. 37, Slide 4, Fall 2023.
 Perhaps the simplest check is as follows: pruning of children of a minimizer node m is possible (for some assignment to the terminal nodes), when both of the following conditions are met: (i) the value of another child of m has already been determined, (ii) somewhere on the path from m to the root node (include), there is a maximizer node M for which an alternative option has already been explored. The pruning will then happen if any such alternative option for the maximizer had a higher value than the value of the “another child” of m for which the value was already determined.
 
 Here, only the last pruning strategy is possible. The first pruning operation on other strategies are all impossible.
+
+### Question 5
+
+A. No. We need to prove $KB \land \neg \alpha$ is unsatisfiable. (p. 23, Slide 5, Fall 2023)  
+B. Yes. See p. 19, Slide 5, Fall 2023.  
+C. No. Horn clause must have form of $P_1 \land P_2 \land \cdots \land P_n \Rightarrow Q$, or $\neg P_1 \lor \neg P_2 \lor \cdots \lor \neg P_n \lor Q$. (p. 26, Slide 5, Fall 2023)  
+D. No. Consider $A = B = False, C = True$. Then $LHS = False$ and $RHS = True$.
