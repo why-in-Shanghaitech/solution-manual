@@ -37,3 +37,17 @@ A. No. We need to prove $KB \land \neg \alpha$ is unsatisfiable. (p. 23, Slide 5
 B. Yes. See p. 19, Slide 5, Fall 2023.  
 C. No. Horn clause must have form of $P_1 \land P_2 \land \cdots \land P_n \Rightarrow Q$, or $\neg P_1 \lor \neg P_2 \lor \cdots \lor \neg P_n \lor Q$. (p. 26, Slide 5, Fall 2023)  
 D. No. Consider $A = B = False, C = True$. Then $LHS = False$ and $RHS = True$.
+
+### Question 6
+
+A. Yes. See p. 49, Slide 6, Fall 2023.  
+B. No. Backward chaining is goal-driven. (p. 48, Slide 5, Fall 2023)  
+C. No. The two negatitions cancel each other.  
+D. No. It only has one predicate, one sentence. Therefore, it is not a complex sentence.
+
+### Question 7
+
+A. No. It is $\forall x \exists y Loves(x, y)$.  
+B. Yes. Modified from p. 15, Slide 6, Fall 2023.  
+C. Yes. It is equivalent to $\forall x \forall y (Dog(y) \land Have(x, y) \Rightarrow \neg Lonely(x))$.  
+D. No. At least it should be $\exists x \forall y Eat(x, y)$.
