@@ -45,3 +45,10 @@ A. Yes. Since $B \lor (A \land B) \equiv B$.
 B. Yes. $LHS \equiv (\neg A \lor B) \lor (\neg B \lor A) \equiv True \equiv RHS$.  
 C. No. Consider $A = B = False$, then $LHS = True$ and $RHS = False$.  
 D. No. Consider $A = False, B = True$, then $LHS = True$ and $RHS = False$.
+
+### Question 7
+
+A. Yes. However, this is conflict with the slides (p. 23, Slide 6, Fall 2023), where there are two parents. Therefore, we decide to give the point to the students no matter whether they choose this option.  
+B. Yes. Quantifier duality. (p. 19, Slide 6, Fall 2023)  
+C. No. Consider 4 people, 1 makes friends with 2, 2 makes friends with 1, 3 makes friends with 4, 4 makes friends with 3. LHS is False while RHS is True.  
+D. Yes, exactly.
