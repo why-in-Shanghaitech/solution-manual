@@ -44,3 +44,10 @@ A. Yes. Use Modus Ponens.
 B. Yes. $LHS \equiv \neg A \lor B \lor \neg B \lor C \equiv True \equiv RHS$.  
 C. Yes. $LHS \equiv (\neg A \lor C) \land (\neg B \lor C) \equiv (\neg A \land \neg B) \lor (\neg A \land C) \lor (C \land \neg B) \lor (C \land C) \equiv RHS$  
 D. Yes. $LHS \equiv (A \lor B) \land (B \lor \neg B) \land (A \lor \neg A) \land (\neg B \lor \neg A) \equiv RHS$
+
+### Question 7
+
+A. No. In a FOL sentence, every variable must be bound. This is a syntax requirement. See p. 20, Slide 6, Fall 2023. Also Definition 3.1.6, [link](https://eng.libretexts.org/Bookshelves/Computer_Science/Programming_and_Computation_Fundamentals/An_Introduction_to_Ontology_Engineering_(Keet)/03%3A_First_Order_Logic_and_Automated_Reasoning_in_a_Nutshell/3.01%3A_First_Order_Logic_Syntax_and_Semantics).  
+B. No. The sentence is true whenever there is an x such that x is not in Shanghai. See p. 18, Slide 6, Fall 2023.  
+C. No. Say there are 4 people: 1 and 2 are friends, 3 and 4 are friends. LHS is False while RHS is True.  
+D. No. The negation in the front is duplicated with the negation before bite.
