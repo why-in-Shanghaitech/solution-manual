@@ -51,3 +51,26 @@ A. No. In a FOL sentence, every variable must be bound. This is a syntax require
 B. No. The sentence is true whenever there is an x such that x is not in Shanghai. See p. 18, Slide 6, Fall 2023.  
 C. No. Say there are 4 people: 1 and 2 are friends, 3 and 4 are friends. LHS is False while RHS is True.  
 D. No. The negation in the front is duplicated with the negation before bite.
+
+### Question 8
+
+A. Yes. Actually, no matter A is independent of B or not, the equality always holds.  
+B. No. $P(B, C) = \sum_A P(A, B, C)$  
+C. Yes. See p. 15, Slide 9, Fall 2023.  
+D. No. We have to know the parents of a varible to do sampling. See p. 8, Slide 9, Fall 2023.
+
+### Question 9
+
+A. Yes. Bayes Net is a directed acyclic graph. (p. 35, Slide 7, Fall 2023)  
+B. No. $O(n)$? If it is $O(n)$, then no need to use Bayes Net. It is $O(d^n)$ where $d$ is the domain size of each variable. (p. 9, Slide 7, Fall 2023)  
+C. No. Consider $A \rightarrow C \leftarrow B$. (p. 55, Slide 7, Fall 2023)  
+D. No. Consider $A \leftarrow C \rightarrow B$. (p. 54, Slide 7, Fall 2023)
+
+### Question 10
+
+See p. 57, Slide 7, Fall 2023 for the active/inactive paths.
+
+A. No. D-E-I is active.  
+B. No. F-E-D-G-H-I is active.  
+C. Yes. Whatever probability you want.  
+D. No. It is G, E, I.
