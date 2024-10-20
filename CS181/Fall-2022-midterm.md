@@ -52,3 +52,32 @@ A. Yes. However, this is conflict with the slides (p. 23, Slide 6, Fall 2023), w
 B. Yes. Quantifier duality. (p. 19, Slide 6, Fall 2023)  
 C. No. Consider 4 people, 1 makes friends with 2, 2 makes friends with 1, 3 makes friends with 4, 4 makes friends with 3. LHS is False while RHS is True.  
 D. Yes, exactly.
+
+### Question 8
+
+The question says $A \perp C|B$.
+
+A. Yes. $A \perp C|B$, therefore $P(C|B) = P(C|B, A)$.  
+B. Yes. $RHS = P(C|B)P(A|B) = P(A,C|B) = LHS$.  
+C. Yes. Apply the chain rule. $P(A,B,C)=P(A|B,C)P(C|B)P(B)=P(A|B)P(C|B)P(B)$.  
+D. No. It makes nonsense.
+
+### Question 9
+
+See p. 57, Slide 7, Fall 2023 for the active/inactive paths.
+
+A. Yes. All the paths are inactive.  
+B. No. A-C-E is active.  
+C. No. A-C-E is active.  
+D. Yes. All the paths are inactive.  
+E. No. D-A-B is active.
+
+### Question 10
+
+See p. 88, Slide 7, Fall 2023 for the conditional independence of markov network.
+
+A. No. A-C-E is active.  
+B. Yes. All the paths are inactive.  
+C. No. In the bayes network, $A \perp E|B, D$, while this is not true in the markov network.  
+D. Yes. There is no triangle (3 nodes that are fully connected) in the markov network.  
+E. No. See p. 98, Slide 7, Fall 2023.
