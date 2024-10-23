@@ -51,3 +51,43 @@ A. No. It is $\forall x \exists y Loves(x, y)$.
 B. Yes. Modified from p. 15, Slide 6, Fall 2023.  
 C. Yes. It is equivalent to $\forall x \forall y (Dog(y) \land Have(x, y) \Rightarrow \neg Lonely(x))$.  
 D. No. At least it should be $\exists x \forall y Eat(x, y)$.
+
+### Question 8
+
+1. Joining over $B$. This will join all the factors with $B$, which are all the factors in this case. The result factor is $P(A, B, C)$.
+2. Summing out $B$. This will sum out $B$ from the result factor. The result factor is $P(A, C)$.
+
+### Question 9
+
+This question goes beyond the scope of the course. It was created by mistake.
+
+We say we "convert" a BN to a MN, it means that the MN can encode the same distribution as the BN. However, it is possible that the MN can encode more distributions than the BN. So the MN and BN will be likely to encode different sets of conditional independence.
+
+In this question, the MN is fully connected, so it can encode any distributions. For BNs, only option D can do this.
+
+To prove it, suppose A,B,C,D are binary variables. Consider the following joint distribution:
+
+| A | B | C | D | P(A,B,C,D) |
+|:-:|:-:|:-:|:-:|:-:|
+|+a|+b|+c|+d| 0.1 |
+|+a|-b|+c|+d| 0.2 |
+|-a|+b|+c|+d| 0.3 |
+|-a|-b|+c|+d| 0.4 |
+
+and 0 for other assignments. We claim that the MN is able to encode this distribution. For example, we define the following potentials:
+
+| A | B | C | D | $\phi$(A,B,C,D) |
+|:-:|:-:|:-:|:-:|:-:|
+|+a|+b|+c|+d| 0.1 |
+|+a|-b|+c|+d| 0.2 |
+|-a|+b|+c|+d| 0.3 |
+|-a|-b|+c|+d| 0.4 |
+
+and 0 for other assignments. However, option A cannot encode this distribution. Since $P(+a,+b)=0.1, P(+a)=0.3, P(+b)=0.4$, we find that $P(+a)P(+b)=0.12 \ne P(+a,+b)$. So variable A and B are dependent. However, in option A, variable A and B are independent if no other variables are observed. Similarly, we can prove that option B and C cannot encode this distribution.
+
+### Question 10
+
+A. Yes. A, C, D are fully connected, while there does not exist 4 nodes that are fully connected. See p. 86, Slide 7, Fall 2023.  
+B. Yes. All paths are inactive. See p. 88, Slide 7, Fall 2023.  
+C. Yes. $\phi(A, B, C, D) = \phi(A, C, D)\phi(B, C, D)$. Observe that $\sum_{a,b} \phi(a, b, C, D) = \sum_{a,b} \phi(a, C, D)\phi(b, C, D) = \sum_a \phi(a, C, D) \sum_b \phi(b, C, D) = 50 \times 50 = 2500$, we have $\sum_{a, b, c, d} \phi(a, b, c, d) = \sum_{c, d} \sum_{a, b} \phi(a, b, c, d) = 4 \times 2500 = 10000$. So $P(+a, +b, +c, +d) = \frac{\phi(+a, +b, +c, +d)}{\sum_{a, b, c, d} \phi(a, b, c, d)} = \frac{\phi(+a, +c, +d)\phi(+b, +c, +d)}{\sum_{a, b, c, d} \phi(a, b, c, d)} = \frac{10 \times 40}{10000} = 0.04$. See p. 87, Slide 7, Fall 2023.  
+D. Yes. See p. 88, Slide 7, Fall 2023.
