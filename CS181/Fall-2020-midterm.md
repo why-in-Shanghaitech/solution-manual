@@ -49,7 +49,7 @@ D. From $A$ and $B$ we can infer $C$. Thus, $A \land B \Rightarrow C$. See p. 22
 
 ### Question 6
 
-A. This is ambiguous. Based on the syntax on p. 258, Figure 8.3, AIMA 4th edition, the statement is correct. The sentence is syntactically correct, but semantically incorrect. See p. 20, Slide 6, Fall 2023.  
+A. No. In a FOL sentence, every variable must be bound. This is a syntax requirement. See p. 20, Slide 6, Fall 2023. Also Definition 3.1.6, [link](https://eng.libretexts.org/Bookshelves/Computer_Science/Programming_and_Computation_Fundamentals/An_Introduction_to_Ontology_Engineering_(Keet)/03%3A_First_Order_Logic_and_Automated_Reasoning_in_a_Nutshell/3.01%3A_First_Order_Logic_Syntax_and_Semantics).  
 B. No. This sentence means "Every thing is a cat and it is cute."  
 C. Yes. This is the rule of quantifier duality. (p.19, Slide 6, Fall 2023)
 

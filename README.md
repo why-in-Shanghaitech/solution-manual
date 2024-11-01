@@ -21,6 +21,7 @@ We try to provide detailed explanations to previous exams, better help students 
  - [Fall 2022 Midterm](CS181/Fall-2022-midterm.md)
  - [Fall 2022 Final A](CS181/Fall-2022-final-A.md)
  - [Fall 2022 Final B](CS181/Fall-2022-final-B.md)
+ - [Fall 2023 Midterm](CS181/Fall-2023-midterm.md)
 
 ### CS274A
 
