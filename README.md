@@ -22,10 +22,16 @@ We try to provide detailed explanations to previous exams, better help students 
  - [Fall 2022 Final A](CS181/Fall-2022-final-A.md)
  - [Fall 2022 Final B](CS181/Fall-2022-final-B.md)
  - [Fall 2023 Midterm](CS181/Fall-2023-midterm.md)
+ - [Fall 2023 Final](CS181/Fall-2023-final.md)
+ - [Fall 2024 Midterm](CS181/Fall-2024-midterm.md) (Instructor: Kan Ren)
+ - [Fall 2024 Final](CS181/Fall-2024-final.md) (Instructor: Kan Ren)
 
 ### CS274A
 
  - [Spring 2022 Final](CS274A/Spring-2022-final.md)
+ - [Spring 2023 Midterm](CS274A/Spring-2023-midterm.md)
+ - [Spring 2023 Final](CS274A/Spring-2023-final.md)
+ - [Spring 2024 Final](CS274A/Spring-2024-final.md)
 
 
 ## License
